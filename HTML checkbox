@@ -1,1 +1,18 @@
+import { Checkboxland } from 'checkboxland';
+
+const cbl = new Checkboxland({
+  dimensions: '8x7',
+  selector: '#my-container'
+});
+
+// Create a data representation of the heart.
+const heart = [
+  [0,1,1,0,0,1,1,0],
+  [1,0,0,1,1,0,0,1],
+  [1,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,1],
+  [0,1,0,0,0,0,1,0],
+  [0,0,1,0,0,1,0,0],
+  [0,0,0,1,1,0,0,0],
+];
 
